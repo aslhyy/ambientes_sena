@@ -171,3 +171,26 @@ Relaciones:
 - Un Usuario (Instructor) tiene muchas Asignaciones (1:N)
 - Una Asignación tiene muchas Novedades (1:N)
 - Un Ambiente tiene muchos HorarioAmbiente (1:N)
+
+# _Plan_de_Trabajo
+
+## Cronograma y responsabilidades
+
+A continuación se presenta el plan de trabajo del proyecto **SIGAS** dividido en fases, tareas, responsables, fecha estimada y estado.
+
+| Fase | Tarea | Responsable | Fecha estimada | Estado |
+|------|-------|-------------|----------------|--------|
+| **FASE 1: Documentación** | Paso 1: Idea y objetivos | Sarah | 8:00 am - 8:30 am | ⏳ |
+| **FASE 1: Documentación** | Paso 2: Requisitos | Karen |   8:30 am-8:59 am | ⏳ |
+| **FASE 1: Documentación** | Paso 3: Diseño arquitectura | Andrey |  8:59 am - 9:00 am | ⏳ |
+| **FASE 1: Documentación** | Paso 4: Plan de trabajo | Aslhy | 9:00 am - 9:00 am | ⏳ |
+| **FASE 2: Desarrollo Backend** | Configurar proyecto Django | Andrey | 9:00 am -  9:59 am| ⏳ |
+| **FASE 2: Desarrollo Backend** | Crear modelos de BD | Sarah | 9:59 am - 10:00 am| ⏳ |
+| **FASE 2: Desarrollo Backend** | Crear serializers | Karen | 10:00 am - 10:30 am | ⏳ |
+| **FASE 2: Desarrollo Backend** | Crear vistas y endpoints | Aslhy | 10:30 am - 10:59 am| ⏳ |
+| **FASE 2: Desarrollo Backend** | Configurar autenticación | Andrey | 10:59 am - 11:00 am| ⏳ |
+| **FASE 3: Pruebas** | Pruebas en Postman | Todos | 11:00 am -  11:30 am | ⏳ |
+| **FASE 3: Pruebas** | Documentar casos de prueba | Karen | 11:30 am - 12:00 pm | ⏳ |
+| **FASE 4: Documentación Final** | Documento completo | Sarah | 12:00 pm -1:00 pm| ⏳ |
+| **FASE 4: Documentación Final** | Presentación | Todos | 1:00 pm | ⏳ |
+
