@@ -203,3 +203,70 @@ A continuación se presenta el plan de trabajo del proyecto **SIGAS** dividido e
 | **FASE 4: Documentación Final** | Documento completo | Sarah | 12:00 pm -1:00 pm| 
 | **FASE 4: Documentación Final** | Presentación | Todos | 1:00 pm | 
 
+---
+## Despliegue (Simulado)
+
+Para el proyecto SIGAS – Sistema Integral de Gestión de Ambientes y Salones, se realizó una simulación de despliegue profesional utilizando la plataforma Render, seleccionando un plan adecuado para un sistema institucional que requiere seguridad, estabilidad y alta disponibilidad.
+
+## Plataforma de despliegue elegida: Render
+
+Plan seleccionado: Organización
+💲 $29 USD por usuario/mes + costos de cómputo
+
+Dado que SIGAS maneja información sensible (documentos de identidad, firmas digitales, historial de préstamos de ambientes, reportes de novedades y trazabilidad interna), no es viable usar planes gratuitos o de nivel hobby.
+
+El plan Organización proporciona el nivel requerido para un sistema del SENA – CBA Mosquera.
+
+## Justificación del Plan
+*** Seguridad Avanzada
+
+Certificaciones SOC 2 Tipo II e ISO 27001
+
+Registros de auditoría
+
+Integración con SAML SSO y SCIM
+
+Esto garantiza cumplimiento normativo y manejo seguro de información institucional.
+
+## Alta Disponibilidad y Rendimiento
+
+Tiempo de actividad garantizado (SLA)
+
+1 TB de ancho de banda incluido
+
+Escalado automático horizontal
+
+Soporte premium
+
+Asegura que SIGAS esté disponible 24/7, especialmente en horas pico de préstamo de ambientes.
+
+## Ambientes Aislados
+
+Desarrollo
+
+Pruebas
+
+Producción
+
+Permite buenas prácticas de ingeniería, CI/CD y validaciones antes de tocar producción.
+
+## Colaboración Profesional
+
+Miembros del equipo ilimitados
+
+Administración avanzada de permisos
+
+Gestión centralizada del equipo
+
+Ideal para instructores, administradores, supervisores y personal TI.
+
+## Arquitectura del Despliegue (Simulada)
+Servicios utilizados en Render
+
+Web Service: Django + Django REST Framework
+
+Base de datos PostgreSQL administrada
+
+CDN global para archivos estáticos
+
+Dominios personalizados con HTTPS automático
