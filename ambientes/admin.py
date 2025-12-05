@@ -1,5 +1,12 @@
 from django.contrib import admin
-from .models import Usuario, Ambiente, ItemInventario, Asignacion, HorarioAmbiente, Novedad
+from .models import (
+    Usuario,
+    Ambiente,
+    ItemInventario,
+    Asignacion,
+    HorarioAmbiente,
+    Novedad
+)
 
 @admin.register(Usuario)
 class UsuarioAdmin(admin.ModelAdmin):

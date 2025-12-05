@@ -1,18 +1,12 @@
-import sys
+from rest_framework.routers import DefaultRouter
+from .views import *
 
-try:
-    import pymysql
-    print(f"PyMySQL instalado: {pymysql.__version__}")
-    print(f"Ubicación: {pymysql.__file__}")
-except ImportError:
-    print(" PyMySQL NO instalado")
+router = DefaultRouter()
+router.register('usuarios', UsuarioViewSet)
+router.register('ambientes', AmbienteViewSet)
+router.register('inventario', ItemInventarioViewSet)
+router.register('asignaciones', AsignacionViewSet)
+router.register('horarios', HorarioAmbienteViewSet)
+router.register('novedades', NovedadViewSet)
 
-try:
-    import MySQLdb
-    print(f"MySQLdb encontrado: {MySQLdb.__version__}")
-    print(f"Ubicación: {MySQLdb.__file__}")
-except ImportError:
-    print("MySQLdb NO encontrado (esto es bueno)")
-
-print(f"\nPython ejecutable: {sys.executable}")
-print(f"Python path: {sys.path}")
+urlpatterns = router.urls

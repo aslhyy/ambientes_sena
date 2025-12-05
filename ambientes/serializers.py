@@ -4,24 +4,24 @@ from .models import Usuario, Ambiente, ItemInventario, Asignacion, HorarioAmbien
 class UsuarioSerializer(serializers.ModelSerializer):
     class Meta:
         model = Usuario
-        fields = '_all_'
+        fields = '__all__'
 
 class ItemInventarioSerializer(serializers.ModelSerializer):
     class Meta:
         model = ItemInventario
-        fields = '_all_'
+        fields = '__all__'
 
 class AmbienteSerializer(serializers.ModelSerializer):
     inventario = ItemInventarioSerializer(many=True, read_only=True)
     
     class Meta:
         model = Ambiente
-        fields = '_all_'
+        fields = '__all__'
 
 class NovedadSerializer(serializers.ModelSerializer):
     class Meta:
         model = Novedad
-        fields = '_all_'
+        fields = '__all__'
 
 class AsignacionSerializer(serializers.ModelSerializer):
     novedades = NovedadSerializer(many=True, read_only=True)
@@ -31,7 +31,7 @@ class AsignacionSerializer(serializers.ModelSerializer):
     
     class Meta:
         model = Asignacion
-        fields = '_all_'
+        fields = '__all__'
 
 class HorarioAmbienteSerializer(serializers.ModelSerializer):
     instructor_nombre = serializers.CharField(source='instructor.nombre', read_only=True)
@@ -39,4 +39,4 @@ class HorarioAmbienteSerializer(serializers.ModelSerializer):
     
     class Meta:
         model = HorarioAmbiente
-        fields = '_all_'
+        fields = '__all__'
