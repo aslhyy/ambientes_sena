@@ -2,8 +2,17 @@
 
 ## 1.1 Nombre de la aplicación
 **SIGAS** - Sistema Integral de Gestión de Ambientes y Salones
+## 1.2 Descripción del Proyecto
 
-## 1.2 Problema que resuelve
+El sistema permite:
+
+- Gestionar usuarios (administradores, instructores y contratistas).
+- Registrar y consultar ambientes disponibles.
+- Administrar inventarios asociados a cada ambiente.
+- Crear, consultar y cerrar asignaciones de ambientes.
+- Reportar novedades o incidentes dentro de los ambientes.
+
+## 1.3 Problema que resuelve
 Actualmente, el control de asignación de ambientes se hace manualmente en papel, 
 generando:
 - Pérdida de planillas
@@ -12,13 +21,13 @@ generando:
 - Conflictos de horarios
 - No hay respaldo digital de las firmas
 
-## 1.3 Tipo de usuarios
+## 1.4 Tipo de usuarios
 1. **Contratista**: Persona que entrega las llaves del ambiente
 2. **Instructor**: Recibe y usa el ambiente para clases
 3. **Supervisor de Contrato**: Valida y supervisa entregas
 4. **Administrador del Sistema**: Gestiona usuarios, ambientes e inventarios
 
-## 1.4 Objetivos
+## 1.5 Objetivos
 
 ### Objetivo General
 Digitalizar y automatizar el proceso de asignación, entrega y devolución 
